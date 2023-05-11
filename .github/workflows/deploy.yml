@@ -22,7 +22,10 @@ jobs:
       - name: Deploy
         uses: appleboy/ssh-action@master
         with:
-          server: ${{ secrets.FTP_HOST }}
+          host: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}          
-          server-dir: /portfolio/
+          script: |
+            cd /portfolio/
+            rm -rf *
+            cp -R /portfolio/* .
