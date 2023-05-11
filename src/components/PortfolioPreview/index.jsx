@@ -18,7 +18,7 @@ function PortfolioPreview({ project }) {
           ))}
         </div>
         <a className={Styles.link} href={project.url}>
-          <span className={Styles.linkInner}>View</span>
+          <span className={Styles.linkInner}>Voir</span>
         </a>
       </div>
     </div>
