@@ -63,6 +63,13 @@ const { content } = Astro.props;
       .content {
         font-size: var(--f-u1);
         line-height: 2.2;
+        text-align: justify;
+      }
+
+      .video {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        width: 100%;
       }
     </style>
   </head>
@@ -82,9 +89,18 @@ const { content } = Astro.props;
     <div class="wrapper wrapper__readable">
       <div class="content"><slot></slot></div>
     </div>
+    {content.video && (
+      <div class="wrapper wrapper__readable">
+        <div class="video">
+          <video controls class="wrapper__readable">
+            <source src={content.video} type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    )}
     <footer class="tac mt6">
       <a href="/projects">
-        <Button>View More</Button>
+        <Button>Voir les autres projets</Button>
       </a>
     </footer>
     <Footer />
