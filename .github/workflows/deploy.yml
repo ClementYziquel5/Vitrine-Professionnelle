@@ -19,13 +19,11 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Deploy
-        uses: appleboy/ssh-action@master
+      - name: Deploy to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          host: ${{ secrets.FTP_HOST }}
+          server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}          
-          script: |
-            cd /portfolio/
-            rm -rf *
-            cp -R /portfolio/* .
+          server_dir: ./portfolio/
+          local_dir: ./dist/
