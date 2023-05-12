@@ -13,7 +13,7 @@ const projects = Astro.fetchContent<MarkdownFrontmatter>('./project/**/*.md')
   .sort((a, b) => new Date(b.publishDate).valueOf() - new Date(a.publishDate).valueOf());
 ---
 
-<html lang="en">
+<html lang="fr">
   <head>
     <MainHead title="Mes projets | Clément Yziquel" />
     <style lang="scss">

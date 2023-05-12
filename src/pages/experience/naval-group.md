@@ -1,15 +1,18 @@
 ---
-layout: ../../../layouts/project.astro
-title: Lunar Eclipse
-client: Self
-publishDate: 2020-03-04 00:00:00
-img: https://images.unsplash.com/photo-1548391350-1a529f6ea42d?fit=crop&w=1400&h=700&q=75
+layout: ../../layouts/experience.astro
+title: Naval Group
+subtitle: Naval Group
+url: https://www.naval-group.com/fr
+logo: ../../../assets/experiences/logo_naval-group.png
+client: 
+publishDate: 2023-04-17
+img: ../../../assets/experiences/naval-group.jpg
 description: |
-  We took some cool pictures of the moon and made a website about it.
+  Consultant / Analyste infrastructures
 tags:
-  - design
-  - dev
-  - branding
+  - Homologation
+  - Scripting
+  - Gestions de projets
 ---
 
 Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.

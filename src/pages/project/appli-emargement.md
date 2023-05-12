@@ -13,7 +13,7 @@ tags:
   - Web App
   - Mobile App
   - API
-video: ../../../assets/appli-emargement.mp4
+#video: ../../../assets/appli-emargement.mp4
 ---
 
 Ce projet est une solution d'application web et mobile pour simplifier la gestion de la présence des étudiants dans les établissements d'enseignement. Il a été développé pour l'ISEN, mon école d'ingénieur, dans le cadre de mon projet M1. Mon binôme et moi même avons mené ce projet de A à Z, de la conception à la réalisation. 
