@@ -7,15 +7,14 @@ import Footer from '../components/Footer/index.jsx';
 import PortfolioPreview from '../components/PortfolioPreview/index.jsx';
 
 // Data Fetching: List all Markdown posts in the repo.
-const projects = Astro.fetchContent('./project/**/*.md');
-const featuredProject = projects[0];
+const projets = Astro.fetchContent('./project/**/*.md');
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
 <html lang="fr">
   <head>
-    <MainHead title="Portfolio Clément Yziquel" />
+    <MainHead title="Clément Yziquel" />
     <style lang="scss">
       $w-s: 750px;
 
@@ -28,11 +27,44 @@ const featuredProject = projects[0];
         }
       }
 
+      p{
+        text-align: justify;
+        font-size: large;
+      }
+
       .img {
         display: block;
         width: 100%;
         height: auto;
       }
+
+      .section{
+        overflow: visible;
+        ul{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          li{
+            float: left;
+            font-size: 1.2rem;
+            border: 3px solid #ccc;
+            padding: 3px;
+            margin: 5px;
+            transition: transform 0.3s ease;
+          &:hover {
+            border-color: #333;
+            transform: scale(1.1);
+            background-color: white;
+          }
+          }
+        }
+      }
+
+      .section1{ grid-area: 1 / 1 / 2 / 4; }
+      .section2{ grid-area: 1 / 4 / 2 / 7; }
+      .section3{ grid-area: 2 / 1 / 3 / 3; }
+      .section4{ grid-area: 2 / 3 / 3 / 5; }
+      .section5{ grid-area: 2 / 5 / 3 / 7; }
 
       .gradient,
       .gradient2 {
@@ -85,10 +117,12 @@ const featuredProject = projects[0];
 
       .grid {
         display: grid;
-        grid-gap: 2rem;
+        grid-column-gap: 0.5rem;
+        padding: 0;
 
         @media (min-width: 1200px) {
-          grid-template-columns: 2fr 1fr;
+          grid-template-columns: repeat(6, 1fr);
+          grid-template-rows: repeat(2, 1fr); 
         }
       }
 
@@ -197,40 +231,90 @@ const featuredProject = projects[0];
       <div class="gradient2" />
       <div class="overlay">
         <h1 class="title">
-          <small class="subtitle">Portfolio </small>Clément Yziquel
+          <small class="subtitle">Vitrine professionnelle</small>Clément Yziquel
         </h1>
         <div>
           <span class="role">
-            👩‍💻 Cybersécurité <span class="invert">👩‍💻 Cybersécurité</span>
+            👩‍💻 Cybersécurité
           </span>&nbsp;
           <span class="role">
-            🏋️ Sport <span class="invert">🏋️ Sport</span>
+            🏋️ Sport
           </span>&nbsp;
           <span class="role">
-            ✈️ Voyages <span class="invert">✈️ Voyages</span>
+            ✈️ Voyages
           </span>
         </div>
-        <p class="desc">Amateur de couchers de soleil, de balades et de bonne nourriture.</p>
+        <p class="desc">Ingénieur généraliste spécialisé en Cybersécurité.</p>
       </div>
     </header>
     <main class="wrapper mt4 mb4">
+      <div>
+        <h3 class="sectionTitle">À propos</h3>
+        <p class="bio">
+          <span>Salut !</span>
+          Je suis Clément, un étudiant ingénieur spécialisé en Cybersécurité.
+          <br />
+          J'ai commencé à m'intéresser à la cybersécurité en 2021, et j'ai depuis eu l'occasion de travailler des projets variés. De
+          la recherche de vulnérabilités dans des applications web à la mise en place d'architectures réseau sécurisées, en passant
+          par le suivi de l'homologation d'un système d'information (normes ANSSI), j'ai pu découvrir de nombreux aspects de la cybersécurité.
+          <br />
+          Je suis actuellement en M1 Cybersécurité à l'ISEN Yncréa Ouest, et je suis à la recherche d'une alternance pour mon M2 (début octobre 2023).
+          <br />
+          N'hésitez pas à me contacter si vous souhaitez en savoir plus sur mon parcours !
+      </div>
       <div class="grid">
-        <div class="section">
-          <h3 class="sectionTitle">Aperçu</h3>
-          <PortfolioPreview project={featuredProject} />
-          <div class="tac mt4">
-            <a href="/projects">
-              <Button>Voir tout</Button>
-            </a>
-          </div>
+        <div class="section section1" >
+          <h3 class="sectionTitle">Hard skills</h3>
+          <ul>
+            <li>👩‍💻 Développement web</li>
+            <li>🔒 Sécurité des systèmes d'information</li>
+            <li>📊 Data science</li>
+            <li>📱 Développement mobile</li>
         </div>
-        <div class="section">
-          <h3 class="sectionTitle">A propos</h3>
-          <p class="bio">
-            <span>Salut!</span> Je suis Clément, laisse moi te voler quelques minutes pour te présenter mon travail. <br/><br/>
+        <div class="section section2">
+          <h3 class="sectionTitle">Soft skills</h3>
+          <ul>
+            <li>👨‍👩‍👧‍👦 Travail en équipe</li>
+            <li>📝 Rigueur</li>
+            <li>📊 Gestion de projet</li>
+            <li>🔎 Curiosité</li>
+        </div>
+        <div class="section section3">
+          <h3 class="sectionTitle">Technologies</h3>
+          <ul>
+            <!-- Reactjs, symfony, Astro, git, Scripting: python/bash, Réseaux: Routing, switching and wireless essentials, 
+            Enterprise networking, security and automatisation -->
+            <li>🌐 HTML/CSS/JS</li>
+            <li>⚛️ React</li>
+            <li>🚀 Symfony</li>
+            <li>🗃️ MySQL</li>            
+            <li>🌌 Astro</li>
+            <li>🐍 Python/🐧 Bash</li>
+            <li>📜 Git</li>
+            <li>🐳 Docker</li>
+            <li>🔬 Burp Suite</li>
+            <li>🕸️ Réseaux (cours Cisco)</li>
+          </ul>
+        </div>
+        <div class="section section4">
+          <h3 class="sectionTitle">Hobbies</h3>
+          <ul>
+            <li>🏋️ Sport</li>
+            <li>🏎️ Sports mécaniques</li>
+            <li>💻 Nouvelles technologies</li>
+          </ul>
+        </div>
+        <div class="section section5">
+          <h3 class="sectionTitle">Langues</h3>
+          <ul>
+            <li>🇫🇷 Français (Voltaire 862)</li>
+            <li>🇬🇧 Anglais (FCE B2)</li>
+            <li>🇪🇸 Espagnol (A2)</li>          
+          </ul>
         </div>
       </div>
     </main>
     <Footer />
+
   </body>
 </html>

@@ -18,7 +18,7 @@
   display: block;
   margin-left: 1rem;
   text-decoration: none;
-  font-size: var(--f-d1);
+  font-size: var(--f-u0);
   text-transform: uppercase;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
@@ -46,6 +46,11 @@
 .social {
   display: block;
   margin-left: auto;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   + .social {
     margin-left: 0.75rem;
@@ -54,8 +59,8 @@
 
 .socialicon {
   display: block;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.7rem;
+  height: 1.7rem;
   fill: var(--t-subdue);
   transition: fill linear 150ms;
 
