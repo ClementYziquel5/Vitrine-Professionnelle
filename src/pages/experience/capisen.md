@@ -1,15 +1,18 @@
 ---
-layout: ../../layouts/project.astro
-title: Mars Rover
-client: Self
-published_at: 2020-03-02 00:00:00
-img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=75
+layout: ../../layouts/experience.astro
+title: Capisen Junior Entreprise
+subtitle: Capisen
+url: https://capisen.fr
+logo: ../../../assets/experiences/logo_capisen.png
+client: 
+publishDate: 2022-06-01
+img: ../../../assets/experiences/capisen.jpg
 description: |
-  We built an unofficial Mars Rover Landing site in celebration of NASA’s Perseverance Rover.
+  Prestations d'accompagnement des entreprises dans leurs projets de développement et de transformation numérique.
 tags:
-  - design
-  - dev
-  - branding
+  - Gestion de projet
+  - Gestion administrative
+  - RH
 ---
 
 Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.

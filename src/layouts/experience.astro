@@ -71,6 +71,11 @@ const { content } = Astro.props;
         margin-bottom: 4rem;
         width: 100%;
       }
+
+      .logo {
+        display: flex;
+        justify-content: center;
+      }
     </style>
   </head>
   <body>
@@ -86,6 +91,13 @@ const { content } = Astro.props;
         <h3 class="tagline">{content.description}</h3>
       </div>
     </div>
+    {content.subtitle && content.logo && content.url && (
+      <div class="wrapper wrapper__readable logo">
+        <a href={content.url}>
+          <img src={content.logo} alt={content.subtitle} />
+        </a>
+      </div>
+    )}
     <div class="wrapper wrapper__readable">
       <div class="content"><slot></slot></div>
     </div>
@@ -99,8 +111,8 @@ const { content } = Astro.props;
       </div>
     )}
     <footer class="tac mt6">
-      <a href="/projects">
-        <Button>Voir les autres projets</Button>
+      <a href="/experiences">
+        <Button>Voir les autres expériences</Button>
       </a>
     </footer>
     <Footer />
