@@ -3,10 +3,10 @@ layout: ../../layouts/experience.astro
 title: Naval Group
 subtitle: Naval Group
 url: https://www.naval-group.com/fr
-logo: ../../../assets/experiences/logo_naval-group.png
+logo: /assets/experiences/logo_naval-group.png
 client: 
 publishDate: 2023-04-17
-img: ../../../assets/experiences/naval-group.jpg
+img: /assets/experiences/naval-group.jpg
 description: |
   Consultant / Analyste infrastructures
 tags:

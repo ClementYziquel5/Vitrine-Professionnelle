@@ -3,10 +3,10 @@ layout: ../../layouts/experience.astro
 title: Capisen Junior Entreprise
 subtitle: Capisen
 url: https://capisen.fr
-logo: ../../../assets/experiences/logo_capisen.png
+logo: /assets/experiences/logo_capisen.png
 client: 
 publishDate: 2022-06-01
-img: ../../../assets/experiences/capisen.jpg
+img: /assets/experiences/capisen.jpg
 description: |
   Prestations d'accompagnement des entreprises dans leurs projets de développement et de transformation numérique.
 tags:
