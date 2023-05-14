@@ -68,6 +68,10 @@
   + .social {
     margin-left: 0.75rem;
   }
+
+  @media screen and (max-device-width: 700px){
+    transform: scale(1.8);
+  }
 }
 
 .socialicon {
@@ -83,6 +87,9 @@
 
   @media screen and (max-device-width: 700px){
     transform: scale(1.8);
-    margin-right: 20px;
+
+    &:first-child {
+      margin-right: 20px;
+    }
   }
 }
