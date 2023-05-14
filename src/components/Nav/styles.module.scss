@@ -5,6 +5,8 @@
   padding-right: 2rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
+
+
 }
 
 .logolink {
@@ -26,6 +28,11 @@
   &:focus,
   &:hover {
     color: var(--t-active);
+  }
+
+  @media only screen and (min-width: 768px) {
+    margin-left: 1.5rem;
+    font-size: var(--f-u2);
   }
 }
 
@@ -66,5 +73,10 @@
 
   &:hover {
     fill: var(--t-active);
+  }
+
+  @media only screen and (min-width: 768px) {
+    width: 2rem;
+    height: 2rem;
   }
 }
