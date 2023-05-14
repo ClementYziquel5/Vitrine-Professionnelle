@@ -5,8 +5,7 @@
   padding-right: 2rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
-
-
+  overflow: visible;
 }
 
 .logolink {
@@ -31,7 +30,7 @@
     color: var(--t-active);
   }
 
-  @media all and (max-width: 699px) and (min-width: 520px){
+  @media screen and (max-device-width: 700px){
     margin-left: 2rem;
     font-size: 2rem;
   }
@@ -50,9 +49,10 @@
   border: 3px solid currentColor;
   border-radius: 50%;
 
-  @media only screen and (max-width: 768px) {
-    width: 3.5em;
-    height: 3.5em;
+  @media screen and (max-device-width: 700px) {
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
   }
 }
 
@@ -81,8 +81,8 @@
     fill: var(--t-active);
   }
 
-  @media only screen and (max-width: 768px) {
-    width: 3.5rem;
-    height: 3.5rem;
+  @media screen and (max-device-width: 700px){
+    transform: scale(1.8);
+    margin-left: 10px;
   }
 }
