@@ -15,12 +15,28 @@ tags:
   - RH
 ---
 
-Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
+## Présentation de Capisen
+Capisen est la Junior-Entreprise de l'ISEN Brest. Elle est gérée par des étudiants de l'école et propose des prestations de services aux entreprises dans le domaine du numérique. Elle est membre de la Confédération Nationale des Junior-Entreprises (CNJE).
+Les Junior-Entreprises (J.E.) sont des associations étudiantes à vocation économique et pédagogique, à but non lucratif. Ces associations sont implantées dans les établissements d’enseignement supérieur, les Junior-Entreprises se définissent comme un vecteur d’employabilité et d’engagement des étudiants.
 
-Smelly cheese stinking bishop roquefort. Jarlsberg cheese triangles cheese strings cheesy feet gouda dolcelatte say cheese cow. Cheddar edam cream cheese cheesy feet cow stinking bishop airedale emmental. Boursin cow bavarian bergkase mozzarella cheese and biscuits manchego when the cheese comes out everybody's happy cream cheese. Cheese on toast st. agur blue cheese croque monsieur halloumi.
+---
 
-Fromage frais jarlsberg st. agur blue cheese. Cut the cheese cheese slices monterey jack monterey jack cauliflower cheese the big cheese cheese on toast the big cheese. Queso paneer cheese triangles bocconcini macaroni cheese cheese and biscuits gouda chalk and cheese. Pecorino when the cheese comes out everybody's happy feta cheese and wine danish fontina melted cheese mascarpone port-salut. When the cheese comes out everybody's happy pecorino cottage cheese.
+## Mes mandats dans l'association
 
-Caerphilly parmesan manchego. Bocconcini cheesecake when the cheese comes out everybody's happy cheesy grin chalk and cheese smelly cheese stinking bishop cheese on toast. Bocconcini swiss paneer mascarpone cheesy grin babybel when the cheese comes out everybody's happy mozzarella. Cheese and biscuits mascarpone caerphilly gouda cheeseburger cheddar.
+#### 2022-Auj. : Membre du Comité d'Orientation Stratégique (COS)
+- Prestation de conseil auprès des membres.
+- Participation à la formation continue des membres.
+- Challenge des décisions du conseil d'administration.
+- Audit interne de l'association (Recrutement Formation Passation (RFP), respect du cadre légal et des processus, etc.)
+- Veille sur les activités de l'association.
 
-Cheese and biscuits cheesy grin roquefort. Ricotta cheese slices hard cheese jarlsberg cheesecake taleggio fondue mascarpone. Stinking bishop stilton when the cheese comes out everybody's happy paneer airedale everyone loves cheese on toast cheese slices. Ricotta cut the cheese cheese triangles babybel cream cheese ricotta.
+#### 2021-2022 : Secrétaire Général
+- Formation des nouveaux membres et en particulier du vice Secrétaire Général.
+- Rédaction de processus et participation à la mise en place du Système de Management de la Qualité (SMQ).
+- Gestion administrative de l'association (gestion des adhésions, des déclarations administratives, etc.).
+- Gestion des ressources humaines (motivation des membres, entretiens annuels, etc.).
+
+#### 2021-2021 : Vice-Secrétaire Général
+- Organisation des réunions hebdomadaires et mensuelles (ordre du jour, compte-rendu, etc.).
+- Responsable de la campagne de recrutement des nouveaux membres.
+- Organisation d'événnements de cohésion (week-end d'intégration, activités, soirées).

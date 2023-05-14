@@ -13,9 +13,23 @@ tags:
   - Web App
   - Mobile App
   - API
-#video: ../../../assets/appli-emargement.mp4
+video: https://www.youtube.com/watch?v=D5oqfVGNytM
 ---
 
 Ce projet est une solution d'application web et mobile pour simplifier la gestion de la présence des étudiants dans les établissements d'enseignement. Il a été développé pour l'ISEN, mon école d'ingénieur, dans le cadre de mon projet M1. Mon binôme et moi même avons mené ce projet de A à Z, de la conception à la réalisation. 
 
-L'application Web codée en React.JS permet la gestion des cours par l'administration. L'application mobile codée en React Native offre aux enseignants la possibilité de faire émarger les étudiants en utilisant le NFC de leur smartphone. Les données sont stockées dans une base de données MySQL et sont accessibles via une API codée en PHP Symfony.
+L'application Web codée en React.JS permet :
+- la création/modification/suppression de sessions d'émargement par l'administration.
+- la création/modification/suppression de groupes d'étudiants par l'administration.
+- la visualisation des présences/absences pour les sessions d'émargement terminées.
+
+L'application mobile codée en React Native offre : 
+- Aux enseignants :
+  - la possibilité de voir les sessions d'émargement à venir les concernant.
+  - la possibilité de faire émarger les étudiants via le NFC de leur smartphone.
+  - la visualisation en temps réel des étudiants présents/absents.
+- Aux étudiants :
+  - la possibilité de voir les sessions d'émargement à venir les concernant.
+  - la possibilité d'émarger via le NFC de leur smartphone.
+
+La communication entre les applications et la base de données MySQL se fait via une API REST codée en PHP Symfony.
