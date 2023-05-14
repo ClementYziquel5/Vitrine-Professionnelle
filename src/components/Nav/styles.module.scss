@@ -32,7 +32,7 @@
 
   @media only screen and (min-width: 768px) {
     margin-left: 1.5rem;
-    font-size: var(--f-u2);
+    font-size: 1.5rem;
   }
 }
 
@@ -48,6 +48,11 @@
   letter-spacing: -0.125rem;
   border: 3px solid currentColor;
   border-radius: 50%;
+
+  @media only screen and (min-width: 768px) {
+    width: 2.5em;
+    height: 2.5em;
+  }
 }
 
 .social {
