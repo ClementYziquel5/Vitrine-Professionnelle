@@ -30,9 +30,9 @@
     color: var(--t-active);
   }
 
-  @media only screen and (min-width: 768px) {
-    margin-left: 1.5rem;
-    font-size: 1.5rem;
+  @media only screen and (max-width: 768px) {
+    margin-left: 2.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -49,9 +49,9 @@
   border: 3px solid currentColor;
   border-radius: 50%;
 
-  @media only screen and (min-width: 768px) {
-    width: 2.5em;
-    height: 2.5em;
+  @media only screen and (max-width: 768px) {
+    width: 3.5em;
+    height: 3.5em;
   }
 }
 
@@ -80,8 +80,8 @@
     fill: var(--t-active);
   }
 
-  @media only screen and (min-width: 768px) {
-    width: 2rem;
-    height: 2rem;
+  @media only screen and (max-width: 768px) {
+    width: 3.5rem;
+    height: 3.5rem;
   }
 }
