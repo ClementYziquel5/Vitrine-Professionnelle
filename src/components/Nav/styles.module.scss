@@ -24,15 +24,16 @@
   text-transform: uppercase;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
+  transition: all linear 150ms;
 
   &:focus,
   &:hover {
     color: var(--t-active);
   }
 
-  @media only screen and (max-width: 768px) {
-    margin-left: 2.5rem;
-    font-size: 2.5rem;
+  @media all and (max-width: 699px) and (min-width: 520px){
+    margin-left: 2rem;
+    font-size: 2rem;
   }
 }
 
