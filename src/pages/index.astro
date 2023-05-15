@@ -195,6 +195,7 @@ const projets = Astro.fetchContent('./project/**/*.md');
         margin-top: 1.5rem;
         margin-bottom: 0;
         color: white;
+        background-color: rgb(0,8,16);
       }
 
       .subtitle {
@@ -244,7 +245,10 @@ const projets = Astro.fetchContent('./project/**/*.md');
             ✈️ Voyages
           </span>
         </div>
-        <p class="desc">Ingénieur généraliste spécialisé en Cybersécurité.</p>
+        <p class="desc">Étudiant ingénieur généraliste de 
+          {
+            new Date().getFullYear() - 2001
+          } ans, spécialisé en Cybersécurité.</p>
       </div>
     </header>
     <main class="wrapper mt4 mb4">
