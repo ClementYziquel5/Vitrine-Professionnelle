@@ -3,4 +3,4 @@
 
 # To do
 - Augmenter la qualité des images
-- Ajouter le contenu de la section "Hard skills" et "Technologies" 
+- Style des images pour RETEX summer jobs
