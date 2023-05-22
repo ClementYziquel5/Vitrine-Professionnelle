@@ -1,3 +1,3 @@
-# Portfolio
+# Professional vitrine
 
-Visit my portfolio at [portfolio.clementyziquel.fr/](https://portfolio.clementyziquel.fr/)
+Visit my vitrine at [vitrine-pro.clementyziquel.fr/](https://vitrine-pro.clementyziquel.fr/)
