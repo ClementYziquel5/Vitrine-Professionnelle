@@ -16,11 +16,12 @@ tags:
 ---
 
 ## Contexte
-Stage de fin de M1 effectué au sein de la DSI (DTSI) de Naval Group à Brest (29).
+Stage de fin de M1 effectué au sein du pôle homologation de la DSSI de Naval Group à Brest (29).
 Stage d'une durée de 4 mois.
 
 ## Missions
-- Prise en main du processus d'homologation des infrastructures de la DSI de Naval Group.
-- Réalisation de scripts de contrôle de durcissement des serveurs Windows.
+- Prise en main du processus d'homologation et de maintien en condition de sécurité (MCS) des SI.
+- Prise en main des normes ANSSI et des guides d'homologation.
+- Réalisation de scripts de contrôle de durcissement des serveurs, et mise en forme du compte rendu (avec un suivi des indicateurs).
 
 To be continued...
