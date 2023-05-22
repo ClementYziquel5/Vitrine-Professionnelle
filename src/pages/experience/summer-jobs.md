@@ -16,7 +16,7 @@ tags:
   - Polyvalence
 ---
 
-J'ai effectué plusieurs jobs d'été durant mes études afin de financer mes études et de découvrir le monde du travail.
+J'ai effectué plusieurs jobs d'été afin de financer mes études et de découvrir le monde du travail.
 
 ### Été 2022 - Surveillant de baignade : 2 mois 
 
@@ -28,7 +28,7 @@ Afin de valider un séjour à l'étranget, j'ai effectué un job d'été à Malt
 
 Lors de cette expérience, j'ai pu découvrir le monde agricole et le travail en équipe. J'ai également pu découvrir le travail de nuit.
 
-Ma mission principale était la conduite des engins agricoles et le maintien de la qualité des récoltes. Le déplacment, le nettoyage et la maintenance des engins était également à prendre en compte.
+Ma mission principale était la conduite des engins agricoles et le maintien de la qualité des récoltes. Le déplacement, le nettoyage et la maintenance des engins était également à prendre en compte.
 
 Lors de ma saison 2020, j'ai travaillé en tant qu'équipier. En 2021, j'ai été promu chef d'équipe.
 

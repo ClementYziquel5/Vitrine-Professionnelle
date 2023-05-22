@@ -207,7 +207,11 @@ const projets = Astro.fetchContent('./project/**/*.md');
 
       .bio {
         line-height: 2;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
+
+        br {
+          margin-bottom: 10px;
+        }
 
         > span:first-of-type {
           line-height: 1;
@@ -253,18 +257,23 @@ const projets = Astro.fetchContent('./project/**/*.md');
     </header>
     <main class="wrapper mt4 mb4">
       <div>
-        <h3 class="sectionTitle">À propos</h3>
+        <!-- <h3 class="sectionTitle">À propos</h3> -->
         <p class="bio">
-          <span>Salut !</span>
+          <span>Salut👋</span>
           Je suis Clément, un étudiant ingénieur spécialisé en Cybersécurité.
           <br />
           J'ai commencé à m'intéresser à la cybersécurité en 2021, et j'ai depuis eu l'occasion de travailler des projets variés. De
           la recherche de vulnérabilités dans des applications web à la mise en place d'architectures réseau sécurisées, en passant
           par le suivi de l'homologation d'un système d'information (normes ANSSI), j'ai pu découvrir de nombreux aspects de la cybersécurité.
           <br />
+          Je suis également passionné par le développement web, et j'ai eu l'occasion de travailler sur plusieurs projets scolaires et personnels. 
+          La philosophie DevOps (et naturellement DevSecOps) m'intéresse particulièrement, j'ai pu découvrir des outils de CI/CD tels que Gitlab CI ou Github Actions. Je suis aussi 
+          familier avec la conteneurisation via Docker.  
+          <br />
           Je suis actuellement en M1 Cybersécurité à l'ISEN Yncréa Ouest, et je suis à la recherche d'une alternance pour mon M2 (début octobre 2023).
           <br />
           N'hésitez pas à me contacter si vous souhaitez en savoir plus sur mon parcours !
+        </p>
       </div>
       <div class="grid">
         <div class="section section1" >
@@ -289,6 +298,7 @@ const projets = Astro.fetchContent('./project/**/*.md');
             <li>📜 Git</li>
             <li>🐳 Docker</li>
             <li>🔬 Burp Suite</li>
+            <li>🔃 Jenkins</li>
           </ul>
         </div>
         <div class="section section3">
